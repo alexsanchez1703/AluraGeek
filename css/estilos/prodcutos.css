@@ -1,0 +1,133 @@
+.productos {
+    padding: 50px 152px;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+/*Prductos*/
+
+.productos__tipo {
+    display: flex;
+    flex-direction: column;
+}
+
+.producto__head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.producto__head h3 {
+    font-size: 2rem;
+    color: #464646;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.bnt-ver-todo {
+    color: #2A7AE4;
+    font-weight: 700;
+    font-size: 1.1rem;
+    line-height: 19px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.producto__card li {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.producto__card li div {
+    position: relative; 
+}
+.icon-trash {
+    position: absolute;
+    width: 15px;
+    top: 10px;
+    left: 110px;
+    display: none;
+    cursor: pointer;
+}
+.enlace-editar {
+    position: absolute;
+    width: 17.5px;
+    top: 10px;
+    left: 150px;
+    display: none;
+    cursor: pointer;
+}
+.icon-edit{
+    position: relative;
+}
+
+.card-img {
+    width: 176px;
+    height: 174px;
+}
+
+.producto__card li h4 {
+    color: #464646;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.producto__card li p {
+    color: #464646;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px
+}
+
+.producto__card li a {
+    color: #2A7AE4;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+}
+
+.producto__card {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: content-box;
+    gap: 1rem;
+    padding-left: 0;
+}
+
+@media screen and (min-width:768px) and (max-width:1100px) {
+    .productos {
+        padding: 1rem 2rem;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+    .productos {
+        padding: 1rem; 
+    }
+    .producto__head h3 {
+        font-size: 22px;
+    }
+    .producto__card{
+        margin-bottom: 2rem;
+    }
+    .producto__head a {
+        font-size: 14px;
+    }
+    .card-img {
+        width: 136px;
+    }
+    .icon-trash {
+        left: 80px;
+    }
+    .enlace-editar {
+        left: 110px;
+    }
+}

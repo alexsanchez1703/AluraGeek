@@ -1,0 +1,256 @@
+.rodapie {
+    display: flex;
+    flex-direction: column;
+}
+.rodapie__descripcion {
+    display: flex;
+    gap: 5rem;
+}
+.rodapie__logo{
+    width: 50%;
+}
+.rodapie__titulo {
+    display: flex;
+    gap: 1rem;
+    text-decoration: none;
+}
+
+.rodapie__titulo {
+    display: flex;
+    gap: 1rem;
+    text-decoration: none;
+}
+
+.rodapie__titulo img {
+    height: max-content;
+    align-self: center;
+}
+
+.rodapie__titulo h1 {
+    align-self: center;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #464646;
+}
+.rodapie__titulo h1:hover {
+    text-shadow: 0.1px 0.1px 0.1px #2A7AE4;
+}
+
+.rodapie__titulo h1 strong {
+    color: #2A7AE4;
+}
+.rodapie__titulo h1 strong:hover {
+    text-shadow: none;
+}
+
+.rodapie__footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #EAF2FD;
+    padding: 50px 152px;
+}
+
+.rodapie__autor {
+    padding: 32px 152px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.rodapie__enlaces {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    width: 50%;
+}
+
+.rodapie__enlaces a {
+    text-decoration: none;
+    color: #464646;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px
+}
+
+.rodapie__contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 50%;
+}
+
+.rodapie__contacto h4 {
+    color: #464646;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px; 
+}
+
+.contacto__form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contenedor__input {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+
+.contenedor__input input, .contenedor__input textarea {
+    display: flex;
+    align-items: center;
+    border: none;
+    width: 100%;
+    height: 4.35rem;
+    border-radius: 4px;
+    color: #464646;
+    font-size: 1rem;
+    line-height: 20px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.contenedor__input input::placeholder, .contenedor__input textarea::placeholder {
+    visibility: hidden;
+    color: #A2A2A2;
+    position: absolute;
+    top: 1rem;
+    left: 0.875rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.input-label {
+    position: absolute;
+    top: 1.375rem;
+    left: 0.5rem;
+    transition: all 0.25s;
+}
+
+.contenedor__input input:not(:placeholder-shown) + .input-label, .contenedor__input input:focus + .input-label {
+  font-size: 0.875rem;
+  top: 0.25rem;
+  transition: all 0.25s;
+}
+.contenedor__input textarea:not(:placeholder-shown) + .input-label, .contenedor__input textarea:focus + .input-label { 
+    display: none;
+    transition: all 0.25s;
+}
+
+.contenedor__input input:focus, .contenedor__input textarea:focus {
+    outline: none;
+  }
+
+  .input-container--invalid {
+    margin-bottom: 0.5rem;
+  }
+  .input-container--invalid .contenedor__input input, 
+  .input-container--invalid .contenedor__input textarea {
+      border: 1px solid #df2525;
+      border-radius: 7px;
+    }
+    
+    .input-container--invalid .input-label {
+      color: #df2525;
+    }
+    
+    .input-message-error {
+      display: none;
+    }
+    
+    .input-container--invalid .input-message-error {
+      color: #df2525;
+      display: block;
+      margin-top: 0.5rem;
+      padding-left: 0.5rem;
+    }
+
+.btn__enviar {
+    background: #2A7AE4;
+    color: #fff;
+    padding: 0.7rem 0rem;
+    margin-right: 70%;
+    font-size: 0.875rem;
+    border: 1px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+@media screen and (min-width:768px) and (max-width:1100px) {
+    .rodapie__footer {
+        padding: 1rem 2rem;
+    }
+    .rodapie__autor {
+        padding: 1rem 2rem;
+    }
+    .rodapie__titulo {
+        display: flex;
+        gap: 1rem;
+        text-decoration: none;
+    }
+    .rodapie__enlaces{
+        width: 60%;
+    }
+    .rodapie__enlaces{
+        width: auto;
+    }
+    .rodapie__descripcion {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .btn__enviar{
+        padding: 1rem 0rem;
+    }
+}
+
+
+@media screen and (min-width:320px) and (max-width:767px) {
+    .rodapie__footer {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 1rem;
+
+    }
+    .rodapie__titulo {
+        display: flex;
+        gap: 1rem;
+        text-decoration: none;
+    }
+    .rodapie__logo {
+        width: auto;
+    }
+    .rodapie__descripcion{
+        align-items: center;
+        flex-direction: column;
+        gap: 1.625rem;
+    }
+    .rodapie__contacto {
+        width: 100%;
+    }
+    .rodapie__contacto h4 {
+        text-align: center;
+    }
+    .rodapie__enlaces {
+        width: auto;
+    }
+    .rodapie__enlaces a {
+        display: flex;
+        justify-content: center;
+    }
+    .rodapie__autor {
+        padding: 1rem;
+    }
+    .btn__enviar{
+        margin-right: 60%;
+    }
+}
+
+
+
+

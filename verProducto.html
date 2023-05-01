@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AluraGeek</title>
+    <link rel="icon" href="./img/Logo_Geek.svg" />
+    <link rel="stylesheet" href="css/Bases/reset.css" />
+    <link rel="stylesheet" href="css/Bases/main.css" />
+    <link rel="stylesheet" href="css/estilos/encabezado.css" />
+    <link rel="stylesheet" href="css/estilos/buscar.css" />
+    <link rel="stylesheet" href="css/estilos/input-boton.css" />
+    <link rel="stylesheet" href="css/estilos/noticias.css" />
+    <link rel="stylesheet" href="css/estilos/prodcutos.css" />
+    <link rel="stylesheet" href="css/estilos/ver-productos.css" />
+    <link rel="stylesheet" href="css/estilos/rodapie.css" />
+    <link rel="stylesheet" href="css/estilos/detalleProducto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <header class="encabezado">
+      <a href="index.html" class="container__titulo">
+        <img src="img/Logo_Geek.svg" alt="" />
+        <h1><strong>Alura</strong>Geek</h1>
+      </a>
+      <div class="container__buscar">
+        <fieldset>
+          <form action="#" method="get" class="buscar__form">
+            <input
+              type="texte="
+              class="input-text"
+              placeholder="¿Qué deseas buscar?"
+            />
+            <input type="submit" class="input-buscar" value="" />
+            <i class="buscar"></i>
+          </form>
+        </fieldset>
+      </div>
+    </header>
+    <main class="main">
+      <section class="card-ver-producto">
+          <div class="mostrar_producto">
+          </div>
+          <div class="container__productos__similares">
+              <h2>Productos similares</h2>
+              <div class="ver-productos__similares">
+                <ul class="producto__card" id="producto__card__similares"></ul>
+              </div>
+          </div>
+      </section>
+    </main>
+    <footer class="rodapie">
+      <div class="rodapie__footer">
+        <div class="rodapie__descripcion">
+          <div class="rodapie__logo">
+            <a href="index.html" class="rodapie__titulo">
+              <img src="img/Logo_Geek.svg" alt="" />
+              <h1><strong>Alura</strong>Geek</h1>
+            </a>
+          </div>
+          <div class="rodapie__enlaces">
+            <a href="#">Quienes somos</a>
+            <a href="#">Política de privacidad</a>
+            <a href="#">Política de privacidad</a>
+            <a href="#">Nuestras Tiendas</a>
+            <a href="#">Quiero ser franquiciado</a>
+            <a href="#">Anúncie aquí</a>
+          </div>
+        </div>
+        <div class="rodapie__contacto">
+          <h4>Hable con nosotros</h4>
+          <form class="contacto__form" action="">
+            <div class="contenedor__input">
+              <input
+                type="text"
+                name="name"
+                placeholder="Nombre"
+                required
+                data-tipo="nombre"
+                minlength="4"
+                maxlength="50"
+                size="10"
+              />
+              <label class="input-label" for="name">Nombre</label>
+              <span class="input-message-error">Este campo no es valido</span>
+            </div>
+            <div class="contenedor__input">
+              <textarea
+                name="mensaje"
+                id="mensajem"
+                class="mensajem"
+                cols="40"
+                rows="5"
+                placeholder="Escribe tu mensaje"
+                required
+                data-tipo="mensaje"
+              ></textarea>
+              <label class="input-label" for="mensaje"
+                >Escribe tu mensaje</label
+              >
+              <span class="input-message-error">Este campo no es valido</span>
+            </div>
+            <button type="submit" class="btn__enviar">Enviar mensaje</button>
+          </form>
+        </div>
+      </div>
+      <div class="rodapie__autor">
+        <h4>Desarrollado por Jorge Sanchez</h4>
+        <p>2023</p>
+      </div>
+    </footer>
+    <script type="module" src="app.js"></script>
+    <script type="module" src="controllers/verProducto.js"></script>
+    <script type="module" src="controllers/crearCards.js"></script>
+  </body>
+</html>

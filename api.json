@@ -1,0 +1,116 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "precio": 30,
+      "tittle": "Taza Blanca",
+      "categoria": "Star Wars",
+      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiU3yZuUQvEMVP6pNf7e2HbVvRFci__sIdxEaw1I-El-kkUZUkemSRFY3wIlx0neXLF42HrB8d5MOwW20WprrGICcV9YW1DCrFsCmd1g7Uu_1k4hCeujppk-03U3TOjSgcdJvzahzvs-Z2XQUIs1TuqFAVa214mJl8kXbP9jMOOOuL7jlsuaXAMAtSX/s1600/Producto%201.png",
+      "descripcion": "Aqui va la descripcion del Producto"
+    },
+    {
+      "id": "2",
+      "precio": 20,
+      "tittle": "Cabeza Star Wars",
+      "categoria": "Star Wars",
+      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7wQkgZhFHXVqzEzbNI3bxnnw22ygyMDjfNmOJrE8uZ7ZfDFY4uCakYJ-bxRdeCDViV5dm15keOsXIhkbR4QdSqeYS_lveYZzLPz9hi3Apx2xXcvOEHGejCtdKUZRJA4H1SGoBuMIIUrHhqw2_eYFlWKG_tE_0Ar7zEAsxhrBrkMeONioFygYhs6Rq/s1600/Producto%202.png",
+      "descripcion": "Aqui va la descripcion del Producto"
+    },
+    {
+      "id": "4",
+      "precio": 30,
+      "tittle": "Producto xyz",
+      "categoria": "Star Wars",
+      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjabq7rSpoaZTr8EqPAbxCwuMRgvfIehs09feGxaPDQn9OyTiFr78qwbVln2aOT81Ix22S-QLeHONrYq5NIJ56ifeB5FmIE-1kfIkGb3y6UeGqOTF1cK1QjjeGx4v5ptuUEfEfcdgkxiNLMPKyFOEqcP9o0h0MnTPXVc3T3t3IB9WK36_XMuNEzIm_t/s1600/Producto%204.png",
+      "descripcion": "Aqui va la descripcion del Producto"
+    },
+    {
+      "precio": "45",
+      "tittle": "Baby Yoda",
+      "categoria": "Star Wars",
+      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjk3lxStVp3peI1EzJicCvRB35fVQEs3vQAt8p5bkk_buWPpMh29T0Li3sJOK2ujzkRNqSAP8QkUN9Js2Idqkg7QLKPdUGiLXotUO6Gg2aXAE0fPObB9iPlAPMzTQj2C8ju_R4GapEJQWmoqtWIj6n3KiDxcv0Y8gtSdVtufaCz1VeJyZktnL1lkRH/s1600/Producto%205.png",
+      "descripcion": "Aqui va la descripcion del Producto",
+      "id": "5"
+    },
+    {
+      "precio": "60",
+      "tittle": "Mando de Play 4",
+      "categoria": "Consolas",
+      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOt6s8X7fJRQzj1-dAdW8p6sp3MpOQka7NW_MgjTXi5g2_qEwv-P8DdfoMFh7UPBhtphxpWrW51jcP1teIJwq0SCowAOnL0YplNwxHTNvBWDKwWZ3cnp5p72b0hdkdbMfDqCDO6B9L7Sswv1GORIlN0FGOw1xol0n6laIGlppPAOQ8d2-s7LdnwrpG/s1600/Producto%201.png",
+      "descripcion": "Aqui va la descripcion del Producto",
+      "id": "7"
+    },
+    {
+      "id": "8",
+      "precio": 800,
+      "tittle": "Play 5",
+      "categoria": "Consolas",
+      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhiJxOteiTMV89OspClP8zc5G8lwlTIyH8M-r1u1zEz7o6JBFOSmJcsnrGTZ0LnyKpA6th1eL5Mn-LKOvfQG-wSYrjFlQZ9-5R2WPrRxKDMX6I-26Y4S52x2cOzVO7-MaOZHjdsHXjpolxpO7ytZiYpspvCHlezzTPsTDG1y9Cak2y6mU3sIvdC_keD/s1600/Producto%202.png",
+      "descripcion": "Aqui va la descripcion del Producto"
+    },
+    {
+      "id": "9",
+      "precio": 100,
+      "tittle": "Ninteno Clasico",
+      "categoria": "Consolas",
+      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLcpqfBKOCYB0eF5wL3cf9LYFSpnm-aQD3NwiBrkBOq-LXch-UdxEe4Jf0aHCpezlCvjvyXYMtXla1Mikz2wJp5rjK3uCixhrw83p9zEIP1YRutvZQMWxDVQstB5ArvcGnsIZupqITKW91kEDXLRdd6ZOuCGtt7evAvU5NQjGS30uUiYB2v8Q_IqU1/s1600/Producto%203.png",
+      "descripcion": "Aqui va la descripcion del Producto"
+    },
+    {
+      "precio": "600",
+      "tittle": "Nintendo Switch",
+      "categoria": "Consolas",
+      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZb8kOnlwXiR3-IhXZrLohzohB5KxRzmDaJIbtBikF3eJDlsTPpBDNKPNYThrR9EfV-3xNnA-UWm4efp1i8E3moxI_1vF1DCXAvqphCHDrbiEtSDeYwBfUtRjTuwhmgs2l2imEwYHMSU6O98Tl-8BB8NErJk-_MqgBSSpo33riWo1SWhFHn5pHwIwo/s1600/Producto%204.png",
+      "descripcion": "Aqui va la descripcion del Producto",
+      "id": "10"
+    },
+    {
+      "precio": "45",
+      "tittle": "Control de Swicth",
+      "categoria": "Otros",
+      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieyEsxZdWeqhynx0LFd87eXToXRVAGaAkVJ8Ip4IWjtwwSOAD4Pcc14ehKQj-5-PPp0GVnzW_N0JfsLCYvCiPoneCzaJ8TtBxjRIHIEUr8nSi6mK5tXZHDxlvXvRAxP52OkZB08eQ8r4XLgewCSpwhCVGZ8lkeZJTr4Rgvi1K4hBrtWSSRXl0nsBAq/s1600/Producto%202.png",
+      "descripcion": "Aqui va la descripcion del Producto",
+      "id": "14"
+    },
+    {
+      "precio": "400",
+      "tittle": "Luisito C",
+      "categoria": "Otros",
+      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDTD-s4vVksLW7_1et0BHrtNgwiAzngrCl_4wnTRwls_LGA3rwx9ecy-TcOEPowUBfTHeeKYBq1Qpz13KjIhgsmlHif4NZ9y-if7xHEXuHWeI3Oe7sEYJwDacm5bYLtk7_Mvt9KEuZj0zx5yKkk1MRd4k625mv7rDNMOsaCzAVH__RAC8tggYNbXx0/s1600/Producto%203.png",
+      "descripcion": "Aqui va la descripcion del Producto",
+      "id": "15"
+    },
+    {
+      "precio": 600,
+      "tittle": "Otros 4",
+      "categoria": "Otros",
+      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2aWCgW2ZDPXB7AdntfSMMHmsoc9TU6jt1keHyMCzW3qbv-gN98iOu_Pdi_RIsvWqkN2iz4xhNOE9b3sh9JFZZN0xNE5Nw7DGBUIRgy-UW5rYmXiQ35FdltPszxvRbZLmxTFU59reFndg1RUxvw0oAuC98LYbUu8CED5bYvAa4DcJb3SCnuMYLxPAo/s1600/Producto%204.png",
+      "descripcion": "Aqui va la descripcion del Producto",
+      "id": "16"
+    },
+    {
+      "precio": "25",
+      "tittle": "Gafas VR",
+      "categoria": "Otros",
+      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjelFH5NcwrnbJ0GMBiZfPS6rHfPxSEfvN4Oi8qcE7b8QE2yyndomuW6IeONqP-WyUr7TQLmYkfjwmRkPAPUCi2tByrbqJHF3NglX2u_g9dYHSx4bJpWsN8Rb4-oNmHJ0oGtSw6EEpqHZAFdXyRQ_YPmbALMIFHsQI3gZqY89OrhADs0NqkmjHGyeL/s1600/Producto%205.png",
+      "descripcion": "Aqui va la descripcion del Producto",
+      "id": "17"
+    },
+    {
+      "precio": "50",
+      "tittle": "Baby Yoda 2",
+      "categoria": "Star Wars",
+      "url": "https://cdn.forbes.com.mx/2019/12/Juguete-Baby-Yoda-Hasbro.jpg",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": "fgCNmQv"
+    },
+    {
+      "precio": "35",
+      "tittle": "T Rex",
+      "categoria": "Otros",
+      "url": "https://c0.wallpaperflare.com/preview/168/419/795/dino-t-rex-toy-dinosaur.jpg",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "id": "DOjYYWf"
+    }
+  ]
+}

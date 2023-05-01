@@ -1,0 +1,41 @@
+.container__input-login {
+    border: 1px solid #2A7AE4;
+    background-color: #fff;
+    width: 182px;
+    margin-left: auto;
+}
+
+.boton-login {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    color: #2A7AE4;
+    border: transparent;
+    cursor: pointer;
+    line-height: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: font-weight 1ms linear;
+    transition: background-color 1ms;
+    transition: color 1ms;
+    text-decoration: none;
+    text-align: center;
+}
+
+.boton-login:hover {
+    font-weight: 600;
+    background-color: #2A7AE4;
+    color: #fff;
+}
+@media screen and (min-width:320px) and (max-width:767px) {
+    .container__input-login{
+        width: 44.45%;
+        order: 1; 
+    }
+    .boton-login {
+        padding: 0.5rem 0;
+        font-size: 0.8rem;
+        font-weight: 700;
+    }
+}

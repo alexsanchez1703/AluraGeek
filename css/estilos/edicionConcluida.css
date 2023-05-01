@@ -1,0 +1,30 @@
+.register-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+  }
+  
+  .register-card__icon-complete {
+    display: block;
+    width: 3.5rem;
+    height: 3.5rem;
+  
+    margin-bottom: 1rem;
+  
+    background-image: url(../../img/checkmark.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .register-card__title {
+    max-width: 20rem;
+  }
+  
+  .button {
+    text-decoration: none;
+    color: #2A7AE4;
+    margin-top: 1rem;
+  }
