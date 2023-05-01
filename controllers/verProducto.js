@@ -35,7 +35,7 @@ console.log(id)
 
 const detalleProductoCat = async () => {
         try {
-         const respuesta = await fetch ("http://localhost:5000/productos")
+         const respuesta = await fetch ("https://api-9zwz.onrender.com/productos")
          const data = await respuesta.json()  
          const similar = data.filter((producto) => producto.categoria === cat && producto.id != id)
          filtroProductos(similar, "producto__card__similares")
